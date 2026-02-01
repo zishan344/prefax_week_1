@@ -1,2 +1,1 @@
-Use ModelViewSet to create an API for the Note model. Implement methods to allow users to create, view, update, and delete notes. Use perform_create() to assign the currently logged-in user as the owner.
-
+Enable token-based login using DRF’s obtain_auth_token view. Update settings to use TokenAuthentication globally. Ensure that a token is created when new users register, using Django signals.
