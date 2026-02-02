@@ -1,1 +1,3 @@
-Enable token-based login using DRF’s obtain_auth_token view. Update settings to use TokenAuthentication globally. Ensure that a token is created when new users register, using Django signals.
+In this task, your goal is to make sure that when a user views the list of notes, they only see their own notes. Each user should have access to view only the notes they created. This helps protect user privacy and ensures that one user cannot view or access another user's personal notes.
+
+You will adjust the logic so that the notes displayed are filtered based on the currently logged-in user. Once completed, the application will show a personalized list of notes for each user.
